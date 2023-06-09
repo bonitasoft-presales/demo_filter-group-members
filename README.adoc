@@ -1,0 +1,19 @@
+= Actor Filter group members demo project
+
+This project demonstrates how to use the https://github.com/bonitasoft-presales/filter-group-members[Group Members] actor filter 
+
+NOTE: requires Bonita Studio v2022.2-u03 or higher to import actor filter as jar file
+
+To use as a jar file, download from https://github.com/bonitasoft-presales/filter-group-members/tags[releases] on github 
+
+To use as a maven dependency, use maven coordinates:
+
+[source,XML]
+----
+<dependency>
+  <groupId>com.bonitasoft.presales.filter</groupId>
+  <artifactId>filter-group-members</artifactId>
+  <version>1.1</version><!--1-->
+</dependency>
+----
+1. replace with desired version
